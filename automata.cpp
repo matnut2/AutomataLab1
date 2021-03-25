@@ -132,11 +132,6 @@ void CommentDFA::doStep(char letter) {
       currentState = 3;
     }
     break;
-  // case 3:
-  //   if(letter != '\n') {
-  //     currentState = trapState;
-  //   }
-  // break;
   case 4:
     if (letter == '}') {
       currentState = 3;
